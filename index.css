@@ -40,9 +40,7 @@ li{
   }
 }
 li:hover{
-  color: #fff;
   margin-left: 25px;
-  background: var(--clr);
 }
 li a{
   display: block;
@@ -59,6 +57,7 @@ li a:hover{
   background: var(--clr);
   margin-left: -45px;
   padding-left: 45px;
+  color: #FFFFFF;
 }
 @keyframes ol{
   0%{
@@ -88,4 +87,10 @@ li a:hover{
   color: #6A966A;
   font-size: 14px;
   display: block;
+}
+.point{
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: #6A966A;
+  font-size: 12px;
 }
