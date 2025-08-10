@@ -7,5 +7,5 @@ window.print('javaScript world?') // print webpage
 prompt('') // input from users
 
 // discouraged
-alert('Follow'); // by PopUp 
+alert('Follow'); // by PopUp
 document.write(' javaScript world?'); // avoid these cuz by override whole WebPage
