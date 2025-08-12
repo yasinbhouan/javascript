@@ -14,6 +14,9 @@
 'It\'s a string with an escaped single quote'; // Escaping single quotes
 "She said, \"Hello!\""; // Escaping double quotes
 'Backslash can also be escaped: \\ This is a backslash'; // Escaping backslash
+'this is a new line string \n and this is the next line'; // New line character
+
+'multiple' + 'string' + ' concatenation'; // Concatenating strings
 
 //template strings
 `template strings`;
@@ -22,5 +25,3 @@
 //template strings allow multiline strings
 `This is a template string
 that spans multiple lines`;
-
-'multiple' + 'string' + ' concatenation'; // Concatenating strings
