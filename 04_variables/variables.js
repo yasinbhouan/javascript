@@ -4,7 +4,7 @@ var oldVariable = 10; // var is not recommended in modern JS (it's used from 199
 let modernVariable = 20; // modern variable declaration using let (only use if reassigning is needed)
 const constantVariable = 30; // constant variable, cannot be reassigned
 
-// variable names must start with a letter, underscore, or dollar sign
+// variable names must start with a letter (case sensitive), underscore, or dollar sign
 const number1 = 5; // valid variable name
 const Number1 = 10; // valid variable name, case-sensitive
 const _number2 = 20; // valid variable name with underscore
