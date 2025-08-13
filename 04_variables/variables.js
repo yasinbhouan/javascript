@@ -23,15 +23,23 @@ let myVariable; // declare a variable without assignment
 myVariable = 100; // assign a value later
 myVariable = 200; // reassigning the variable
 
+// reassigning sortcut operator
+myVariable += 50; // equivalent to myVariable = myVariable + 50
+myVariable -= 20; // equivalent to myVariable = myVariable - 20
+myVariable *= 2; // equivalent to myVariable = myVariable * 2
+myVariable /= 4; // equivalent to myVariable = myVariable / 4
+myVariable ++; // increment by 1, equivalent to myVariable = myVariable + 1
+myVariable --; // decrement by 1, equivalent to myVariable = myVariable - 1
+
 //diclare variable with initial value
-let anotherVariable = 300; // declare and assign a value in one step
+const anotherVariable = 300; // declare and assign a value in one step
 
 // declare multiple variables in one line
-let firstVar = 1, secondVar = 2, thirdVar = 3;
+const firstVar = 1, secondVar = 2, thirdVar = 3;
 
 // arithmetic operations and string concatenation
-let calculate = 3 + 7; // result is 10
-let concatenation = 'good' + ' ' + 'Morning'; // result is 'good Morning'
-let numberConcatenation = 5 + '5'; // result is '55' (string concatenation)
-let mixedConcatenation = 5 + 5 + '5'; // result is '105' (5 + 5 = 10, then '10' + '5' = '105')
-let complexConcatenation = 5 + '5' + 5; // result is '555' (5 + '5' = '55', then '55' + 5 = '555')
+const calculate = 3 + 7; // result is 10
+const concatenation = 'good' + ' ' + 'Morning'; // result is 'good Morning'
+const numberConcatenation = 5 + '5'; // result is '55' (string concatenation)
+const mixedConcatenation = 5 + 5 + '5'; // result is '105' (5 + 5 = 10, then '10' + '5' = '105')
+const complexConcatenation = 5 + '5' + 5; // result is '555' (5 + '5' = '55', then '55' + 5 = '555')
