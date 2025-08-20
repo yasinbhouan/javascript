@@ -12,7 +12,7 @@ body{
   color: #FFFFFF;
   background: #000000;
 }
-p.no_output{
+.no_output{
   font-family: monospace, sans-serif;
   text-shadow: 0 0 10px #FFFFFF;
 }
